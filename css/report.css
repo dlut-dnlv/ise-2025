@@ -1,0 +1,59 @@
+h1{
+    font-size: 40px;
+    font-weight: 900px;
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+.content{
+    position: relative;
+    width: 1000px;
+    margin: 10px auto;
+}
+p {
+    text-indent: 2em;  /* Indents the first line by 2em */
+    font-size: 22px;   /* Sets the font size to 22px */
+    line-height: 2em;  /* Sets the line height to 2em */
+    text-align: left;  /* Ensures the text is left-aligned */
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.back{
+    position: absolute;
+    bottom:0;
+    right: 0; 
+    height: 70px;
+    width: 150px;
+    background-color: #d9fddf;
+    display: flex;
+    justify-content: center; /* 左右居中 */
+    align-items: center; /* 上下居中 */
+    border-radius: 25%; /* 使边缘变成圆形 */
+}
+.back:hover{
+    background-color: #87ee7e;
+}
+.invisible{
+    height: 100px;
+    width: 150px;
+}
+a {
+    text-decoration: none;
+    font-size: 28px;
+}
+a:hover{
+    color: white;
+}
+.jieshao{
+    line-height: 3;
+    text-align: center;
+}
+.page{
+    width: 1400px;
+    text-align: center;
+}
